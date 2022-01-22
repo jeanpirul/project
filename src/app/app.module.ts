@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { ComponentsComponent } from './components/components.component';
+import { InitComponent } from './init/init.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ComponentsComponent
+    ComponentsComponent,
+    InitComponent
   ],
   imports: [
     BrowserModule,
