@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { InitComponent } from './init/init.component';
+/* import { AppRoutingModule } from './app-routing.module'; */
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { InitComponent } from './init/init.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatSidenavModule
+    MatSidenavModule,
+    // AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

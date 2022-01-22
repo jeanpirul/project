@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   shouldRun = /(^|.)(stackblitz|webcontainer).(io|com)$/.test(window.location.host);
+  public saludar() {
+    console.log("Hola");
+  }
 }

@@ -11,6 +11,6 @@ export class InitComponent implements OnInit {
   ngOnInit(): void {}
   
   public saludar() {
-    console.log("Hola");
+    console.log("HolAAa");
   }
 }
