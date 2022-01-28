@@ -5,19 +5,19 @@ import { AppComponent } from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { InitComponent } from './init/init.component';
-/* import { AppRoutingModule } from './app-routing.module'; */
+import {MatMenuModule} from '@angular/material/menu';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    InitComponent
+    InitComponent,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatSidenavModule,
-    // AppRoutingModule
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
